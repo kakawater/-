@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94D412001C213B5400ECA166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D411FF1C213B5400ECA166 /* main.m */; };
+		94D412031C213B5400ECA166 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D412021C213B5400ECA166 /* AppDelegate.m */; };
+		94D412061C213B5400ECA166 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D412051C213B5400ECA166 /* ViewController.m */; };
+		94D412091C213B5400ECA166 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D412071C213B5400ECA166 /* Main.storyboard */; };
+		94D4120B1C213B5400ECA166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D4120A1C213B5400ECA166 /* Assets.xcassets */; };
+		94D4120E1C213B5400ECA166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D4120C1C213B5400ECA166 /* LaunchScreen.storyboard */; };
+		94D412191C213B5400ECA166 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D412181C213B5400ECA166 /* ______Tests.m */; };
+		94D412241C213B5400ECA166 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D412231C213B5400ECA166 /* ______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94D412151C213B5400ECA166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94D411F31C213B5400ECA166 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94D411FA1C213B5400ECA166;
+			remoteInfo = "图书管理系统";
+		};
+		94D412201C213B5400ECA166 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94D411F31C213B5400ECA166 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94D411FA1C213B5400ECA166;
+			remoteInfo = "图书管理系统";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94D411FB1C213B5400ECA166 /* 图书管理系统.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图书管理系统.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D411FF1C213B5400ECA166 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94D412011C213B5400ECA166 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94D412021C213B5400ECA166 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94D412041C213B5400ECA166 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		94D412051C213B5400ECA166 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		94D412081C213B5400ECA166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94D4120A1C213B5400ECA166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94D4120D1C213B5400ECA166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94D4120F1C213B5400ECA166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D412141C213B5400ECA166 /* 图书管理系统Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "图书管理系统Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D412181C213B5400ECA166 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		94D4121A1C213B5400ECA166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D4121F1C213B5400ECA166 /* 图书管理系统UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "图书管理系统UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D412231C213B5400ECA166 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		94D412251C213B5400ECA166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94D411F81C213B5400ECA166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D412111C213B5400ECA166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D4121C1C213B5400ECA166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94D411F21C213B5400ECA166 = {
+			isa = PBXGroup;
+			children = (
+				94D411FD1C213B5400ECA166 /* 图书管理系统 */,
+				94D412171C213B5400ECA166 /* 图书管理系统Tests */,
+				94D412221C213B5400ECA166 /* 图书管理系统UITests */,
+				94D411FC1C213B5400ECA166 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94D411FC1C213B5400ECA166 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94D411FB1C213B5400ECA166 /* 图书管理系统.app */,
+				94D412141C213B5400ECA166 /* 图书管理系统Tests.xctest */,
+				94D4121F1C213B5400ECA166 /* 图书管理系统UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94D411FD1C213B5400ECA166 /* 图书管理系统 */ = {
+			isa = PBXGroup;
+			children = (
+				94D412011C213B5400ECA166 /* AppDelegate.h */,
+				94D412021C213B5400ECA166 /* AppDelegate.m */,
+				94D412041C213B5400ECA166 /* ViewController.h */,
+				94D412051C213B5400ECA166 /* ViewController.m */,
+				94D412071C213B5400ECA166 /* Main.storyboard */,
+				94D4120A1C213B5400ECA166 /* Assets.xcassets */,
+				94D4120C1C213B5400ECA166 /* LaunchScreen.storyboard */,
+				94D4120F1C213B5400ECA166 /* Info.plist */,
+				94D411FE1C213B5400ECA166 /* Supporting Files */,
+			);
+			path = "图书管理系统";
+			sourceTree = "<group>";
+		};
+		94D411FE1C213B5400ECA166 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94D411FF1C213B5400ECA166 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94D412171C213B5400ECA166 /* 图书管理系统Tests */ = {
+			isa = PBXGroup;
+			children = (
+				94D412181C213B5400ECA166 /* ______Tests.m */,
+				94D4121A1C213B5400ECA166 /* Info.plist */,
+			);
+			path = "图书管理系统Tests";
+			sourceTree = "<group>";
+		};
+		94D412221C213B5400ECA166 /* 图书管理系统UITests */ = {
+			isa = PBXGroup;
+			children = (
+				94D412231C213B5400ECA166 /* ______UITests.m */,
+				94D412251C213B5400ECA166 /* Info.plist */,
+			);
+			path = "图书管理系统UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94D411FA1C213B5400ECA166 /* 图书管理系统 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D412281C213B5400ECA166 /* Build configuration list for PBXNativeTarget "图书管理系统" */;
+			buildPhases = (
+				94D411F71C213B5400ECA166 /* Sources */,
+				94D411F81C213B5400ECA166 /* Frameworks */,
+				94D411F91C213B5400ECA166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "图书管理系统";
+			productName = "图书管理系统";
+			productReference = 94D411FB1C213B5400ECA166 /* 图书管理系统.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94D412131C213B5400ECA166 /* 图书管理系统Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D4122B1C213B5400ECA166 /* Build configuration list for PBXNativeTarget "图书管理系统Tests" */;
+			buildPhases = (
+				94D412101C213B5400ECA166 /* Sources */,
+				94D412111C213B5400ECA166 /* Frameworks */,
+				94D412121C213B5400ECA166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94D412161C213B5400ECA166 /* PBXTargetDependency */,
+			);
+			name = "图书管理系统Tests";
+			productName = "图书管理系统Tests";
+			productReference = 94D412141C213B5400ECA166 /* 图书管理系统Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94D4121E1C213B5400ECA166 /* 图书管理系统UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D4122E1C213B5400ECA166 /* Build configuration list for PBXNativeTarget "图书管理系统UITests" */;
+			buildPhases = (
+				94D4121B1C213B5400ECA166 /* Sources */,
+				94D4121C1C213B5400ECA166 /* Frameworks */,
+				94D4121D1C213B5400ECA166 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94D412211C213B5400ECA166 /* PBXTargetDependency */,
+			);
+			name = "图书管理系统UITests";
+			productName = "图书管理系统UITests";
+			productReference = 94D4121F1C213B5400ECA166 /* 图书管理系统UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94D411F31C213B5400ECA166 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Lingyu;
+				TargetAttributes = {
+					94D411FA1C213B5400ECA166 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = DY7LN4S298;
+					};
+					94D412131C213B5400ECA166 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = DY7LN4S298;
+						TestTargetID = 94D411FA1C213B5400ECA166;
+					};
+					94D4121E1C213B5400ECA166 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = DY7LN4S298;
+						TestTargetID = 94D411FA1C213B5400ECA166;
+					};
+				};
+			};
+			buildConfigurationList = 94D411F61C213B5400ECA166 /* Build configuration list for PBXProject "图书管理系统" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94D411F21C213B5400ECA166;
+			productRefGroup = 94D411FC1C213B5400ECA166 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94D411FA1C213B5400ECA166 /* 图书管理系统 */,
+				94D412131C213B5400ECA166 /* 图书管理系统Tests */,
+				94D4121E1C213B5400ECA166 /* 图书管理系统UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94D411F91C213B5400ECA166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D4120E1C213B5400ECA166 /* LaunchScreen.storyboard in Resources */,
+				94D4120B1C213B5400ECA166 /* Assets.xcassets in Resources */,
+				94D412091C213B5400ECA166 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D412121C213B5400ECA166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D4121D1C213B5400ECA166 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94D411F71C213B5400ECA166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D412061C213B5400ECA166 /* ViewController.m in Sources */,
+				94D412031C213B5400ECA166 /* AppDelegate.m in Sources */,
+				94D412001C213B5400ECA166 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D412101C213B5400ECA166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D412191C213B5400ECA166 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D4121B1C213B5400ECA166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D412241C213B5400ECA166 /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94D412161C213B5400ECA166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94D411FA1C213B5400ECA166 /* 图书管理系统 */;
+			targetProxy = 94D412151C213B5400ECA166 /* PBXContainerItemProxy */;
+		};
+		94D412211C213B5400ECA166 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94D411FA1C213B5400ECA166 /* 图书管理系统 */;
+			targetProxy = 94D412201C213B5400ECA166 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94D412071C213B5400ECA166 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94D412081C213B5400ECA166 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94D4120C1C213B5400ECA166 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94D4120D1C213B5400ECA166 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94D412261C213B5400ECA166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94D412271C213B5400ECA166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94D412291C213B5400ECA166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "图书管理系统/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kakawater.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94D4122A1C213B5400ECA166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "图书管理系统/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kakawater.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		94D4122C1C213B5400ECA166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "图书管理系统Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kakawater.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/图书管理系统.app/图书管理系统";
+			};
+			name = Debug;
+		};
+		94D4122D1C213B5400ECA166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "图书管理系统Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kakawater.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/图书管理系统.app/图书管理系统";
+			};
+			name = Release;
+		};
+		94D4122F1C213B5400ECA166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "图书管理系统UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kakawater.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "图书管理系统";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		94D412301C213B5400ECA166 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "图书管理系统UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kakawater.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "图书管理系统";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94D411F61C213B5400ECA166 /* Build configuration list for PBXProject "图书管理系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D412261C213B5400ECA166 /* Debug */,
+				94D412271C213B5400ECA166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94D412281C213B5400ECA166 /* Build configuration list for PBXNativeTarget "图书管理系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D412291C213B5400ECA166 /* Debug */,
+				94D4122A1C213B5400ECA166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94D4122B1C213B5400ECA166 /* Build configuration list for PBXNativeTarget "图书管理系统Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D4122C1C213B5400ECA166 /* Debug */,
+				94D4122D1C213B5400ECA166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94D4122E1C213B5400ECA166 /* Build configuration list for PBXNativeTarget "图书管理系统UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D4122F1C213B5400ECA166 /* Debug */,
+				94D412301C213B5400ECA166 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94D411F31C213B5400ECA166 /* Project object */;
+}
